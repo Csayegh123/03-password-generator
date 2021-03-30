@@ -20,7 +20,7 @@ const SYMBOL_CODES = arrayFromLowToHigh(33, 47)
 // Copy Password
 copybtnDOM.addEventListener('click', () => {
   const textarea = document.createElement('textarea');
-  const passwordToCopy = resultDOM.innerText;
+  const passwordToCopy = resultDOM.innerText;localStorage
 
   // Edge Case when Password is Empty
   if (!passwordToCopy) return;
