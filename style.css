@@ -50,7 +50,7 @@ header {
   display: block;
   width: 100%;
   background: #e7e9eb;
-  height: 2px;
+  height: 6px;
 }
 
 .card-body {
@@ -76,8 +76,8 @@ header {
 }
 
 .btn {
-  border: saddlebrown;
-  background-color: hsl(360, 91%, 36%);
+  border: rgb(201, 247, 95);
+  background-color: rgb(164, 155, 177);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
